@@ -1,0 +1,826 @@
+@media (min-width: 1000px){
+body{
+    background-color: black;
+    margin: 0%;
+    }
+
+
+header{
+width:100%;
+height:100px;
+display:flex;
+align-items: center;
+justify-content:center;
+margin:0px auto;
+background-color: black;
+}
+
+header,h1{
+    color: white;
+    }
+
+.links,a{
+    color: rgb(0, 255, 255);
+    
+}
+
+.personaje h1,p{
+color:white;
+}
+
+.Aatrox details{
+    background-image: url("img/Aatrox.jpg");
+    background-size: cover;
+    background-position-y: -120px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    right: auto;
+    margin-bottom:10px ;
+    margin-top: 50px;
+    transition: 150ms;
+    cursor:pointer;
+}
+
+.Aatrox .parrafo{
+    background-image: url("img/Aatrox.jpg");
+    margin-top:-20px;
+    background-size: cover;
+    background-position-y: -210px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px red;
+}
+
+.Aatrox details[open]{
+    margin-bottom:110px;
+
+}
+summary{
+    width:100% ;
+    height: 110px;
+}
+
+details:hover{
+transform: translate(2%);    
+}
+
+.Ahri details{
+    background-image:url("img/Ahri.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom:auto;
+    margin-top:auto;
+    transition:150ms;
+    cursor:pointer;
+}
+
+
+
+.Ahri .parrafo {
+    margin-top:-20px;
+    background-image:url("img/Ahri.jpg");
+    background-size: cover;
+    background-position-y: -190px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px blue;
+}
+
+
+.Ahri details[open] {
+    margin-bottom:90px;
+
+}
+
+.Akali details{
+    background-image:url("img/Akali.jpg");
+    background-size: cover;
+    background-position-y: -50px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    transition: 150ms;
+    cursor:pointer;
+}
+
+.Akali .parrafo{
+    margin-top:-20px;
+    background-image:url("img/Akali.jpg");
+    background-size: cover;
+    background-position-y: -140px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px rgb(47, 136, 99);
+}
+
+.Akali details[open] {
+    margin-bottom:90px;
+}
+
+.Akshan details{
+    background-image:url("img/Akshan.jpg");
+    background-size: cover;
+    background-position-y: -200px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    transition: 150ms;
+    cursor:pointer;
+}
+
+.Akshan .parrafo{
+    margin-top:-20px;
+    background-image:url("img/Akshan.jpg");
+    background-size: cover;
+    background-position-y: -290px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px rgb(196, 199, 12);
+}
+
+.Akshan details[open] {
+    margin-bottom:90px;
+}
+
+.Alistar details{
+    background-image:url("img/Alistar.jpg");
+    background-size: cover;
+    background-position-y: -150px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    transition: 150ms;
+    cursor:pointer;
+}
+
+.Alistar .parrafo{
+    margin-top:-20px;
+    background-image:url("img/Alistar.jpg");
+    background-size: cover;
+    background-position-y: -240px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px rgb(68, 24, 61);
+
+}
+
+.Alistar details[open] {
+    margin-bottom:90px;
+}
+
+.Amumu details{
+    background-image:url("img/Amumu.jpg");
+    background-size: cover;
+    background-position-y: -125px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom:auto;
+    margin-top:auto;
+    transition:150ms;
+    cursor:pointer;
+}
+
+
+
+.Amumu .parrafo {
+    margin-top:-20px;
+    background-image:url("img/Amumu.jpg");
+    background-size: cover;
+    background-position-y: -215px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px rgb(0, 225, 255);
+}
+.Amumu details[open] {
+    margin-bottom:90px;
+}
+
+.Annie details{
+    background-image:url("img/Annie.jpg");
+    background-size: cover;
+    background-position-y: -120px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    transition: 150ms;
+    cursor:pointer;
+}
+
+.Annie .parrafo{
+    margin-top:-20px;
+    background-image:url("img/Annie.jpg");
+    background-size: cover;
+    background-position-y: -210px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px rgb(165, 43, 13);
+}
+
+.Annie details[open] {
+    margin-bottom:90px;
+}
+
+.Aphelios details{
+    background-image:url("img/Aphelios.jpg");
+    background-size: cover;
+    background-position-y: -67px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom:auto;
+    margin-top:auto;
+    transition:150ms;
+    cursor:pointer;
+}
+
+
+
+.Aphelios .parrafo {
+    margin-top:-20px;
+    background-image:url("img/Aphelios.jpg");
+    background-size: cover;
+    background-position-y: -157px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px rgb(0, 162, 255);
+}
+
+
+.Aphelios details[open] {
+    margin-bottom:90px;
+
+}
+
+.Ashe details{
+    background-image:url("img/Ashe.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom:auto;
+    margin-top:auto;
+    transition:150ms;
+    cursor:pointer;
+}
+
+
+
+.Ashe .parrafo {
+    margin-top:-20px;
+    background-image:url("img/Ashe.jpg");
+    background-size: cover;
+    background-position-y: -190px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px blue;
+}
+
+
+.Ashe details[open] {
+    margin-bottom:90px;
+
+}
+
+.AurelionSol details{
+    background-image:url("img/AurelionSol.jpg");
+    background-size: cover;
+    background-position-y: -70px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:70%;
+    height:100px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom:auto;
+    margin-top:auto;
+    transition:150ms;
+    cursor:pointer;
+}
+
+
+
+.AurelionSol .parrafo {
+    margin-top:-20px;
+    background-image:url("img/AurelionSol.jpg");
+    background-size: cover;
+    background-position-y: -160px;
+    background-position-x: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    cursor: auto;
+    text-shadow: 3px 4px 4px blue;
+}
+
+
+.AurelionSol details[open] {
+    margin-bottom:90px;
+}
+
+footer .RiotGames{
+    width:200px;
+    height:100px;
+    margin-top: 30px;
+} 
+
+.redes,.instagram,.whatsapp,.Twitter{
+    height:50px;
+    width: 50px;
+    margin-top: 30px;
+}
+
+
+
+}
+
+@media (max-width: 1000px){   
+    
+    body{
+        background-color: black;
+    }
+    header{
+        width:100%;
+        height:100px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        margin:0px auto;
+        background-color: black;
+        }
+    header,h1{
+        color: white;
+        }
+    
+    
+    p{
+        font-size: 31px;
+    } 
+    h1{
+        font-size: 45px;
+    }  
+    .links{
+        visibility: hidden;
+    }
+    
+    a{
+        color: rgb(0, 255, 255);
+    }
+    summary{
+        width:100% ;
+        height: 200px;
+    }
+    
+    .personaje h1,p{
+    color:white;
+    }
+    
+    details:hover{
+    transform: translate(2%);    
+    }
+    .Aatrox details{
+        background-image: url("img/Aatrox.jpg");
+        background-size: cover;
+        background-position-y: -25px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height: 220px;
+        position: relative;
+        top: 20px;
+        right: auto;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        transition: 150ms;
+        cursor:pointer;
+    }
+    
+    .Aatrox .parrafo{
+        background-image: url("img/Aatrox.jpg");
+        margin-top:-20px;
+        background-size: cover;
+        background-position-y: -205px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:220px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px red;
+    }
+    
+    .Aatrox details[open]{
+        margin-bottom:180px;
+    
+    }
+    
+    .Ahri details{
+        background-image:url("img/Ahri.jpg");
+        background-size: cover;
+        background-position-y: -10px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height: 220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom:auto;
+        margin-top:auto;
+        transition:150ms;
+        cursor:pointer;
+    }
+    
+    
+    
+    .Ahri .parrafo {
+        margin-top:-20px;
+        background-image:url("img/Ahri.jpg");
+        background-size: cover;
+        background-position-y: -190px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:220px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px blue;
+    }
+    
+    
+    .Ahri details[open] {
+        margin-bottom:140px;
+    
+    }
+    
+    .Akali details{
+        background-image:url("img/Akali.jpg");
+        background-size: cover;
+        background-position-y: -10px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        transition: 150ms;
+        cursor:pointer;
+    }
+    
+    .Akali .parrafo{
+        margin-top:-20px;
+        background-image:url("img/Akali.jpg");
+        background-size: cover;
+        background-position-y: -190px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:220px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px rgb(47, 136, 99);
+    }
+    
+    .Akali details[open] {
+        margin-bottom:140px;
+    }
+    
+    .Akshan details{
+        background-image:url("img/Akshan.jpg");
+        background-size: cover;
+        background-position-y: -110px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        transition: 150ms;
+        cursor:pointer;
+    }
+    
+    .Akshan .parrafo{
+        margin-top:-20px;
+        background-image:url("img/Akshan.jpg");
+        background-size: cover;
+        background-position-y: -290px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:220px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px rgb(196, 199, 12);
+    }
+    
+    .Akshan details[open] {
+        margin-bottom:140px;
+    }
+    
+    .Alistar details{
+        background-image:url("img/Alistar.jpg");
+        background-size: cover;
+        background-position-y: -80px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        transition: 150ms;
+        cursor:pointer;
+    }
+    
+    .Alistar .parrafo{
+        margin-top:-20px;
+        background-image:url("img/Alistar.jpg");
+        background-size: cover;
+        background-position-y: -260px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:300px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px rgb(68, 24, 61);
+    
+    }
+    
+    .Alistar details[open] {
+        margin-bottom:250px;
+    }
+    
+    .Amumu details{
+        background-image:url("img/Amumu.jpg");
+        background-size: cover;
+        background-position-y: -50px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom:auto;
+        margin-top:auto;
+        transition:150ms;
+        cursor:pointer;
+    }
+    
+    
+    
+    .Amumu .parrafo {
+        margin-top:-20px;
+        background-image:url("img/Amumu.jpg");
+        background-size: cover;
+        background-position-y: -230px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:220px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px rgb(0, 225, 255);
+    }
+    .Amumu details[open] {
+        margin-bottom:140px;
+    }
+    
+    .Annie details{
+        background-image:url("img/Annie.jpg");
+        background-size: cover;
+        background-position-y: -30px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        transition: 150ms;
+        cursor:pointer;
+    }
+    
+    .Annie .parrafo{
+        margin-top:-20px;
+        background-image:url("img/Annie.jpg");
+        background-size: cover;
+        background-position-y: -210px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:220px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px rgb(165, 43, 13);
+    }
+    
+    .Annie details[open] {
+        margin-bottom:140px;
+    }
+    
+    .Aphelios details{
+        background-image:url("img/Aphelios.jpg");
+        background-size: cover;
+        background-position-y: -50px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom:auto;
+        margin-top:auto;
+        transition:150ms;
+        cursor:pointer;
+    }
+    
+    
+    
+    .Aphelios .parrafo {
+        margin-top:-20px;
+        background-image:url("img/Aphelios.jpg");
+        background-size: cover;
+        background-position-y: -230px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:220px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px rgb(0, 162, 255);
+    }
+    
+    
+    .Aphelios details[open] {
+        margin-bottom:140px;
+    
+    }
+    
+    .Ashe details{
+        background-image:url("img/Ashe.jpg");
+        background-size: cover;
+        background-position-y: -40px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom:auto;
+        margin-top:auto;
+        transition:150ms;
+        cursor:pointer;
+    }
+    
+    
+    
+    .Ashe .parrafo {
+        margin-top:-20px;
+        background-image:url("img/Ashe.jpg");
+        background-size: cover;
+        background-position-y: -220px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:300px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px blue;
+    }
+    
+    
+    .Ashe details[open] {
+        margin-bottom:259px;
+    
+    }
+    
+    .AurelionSol details{
+        background-image:url("img/AurelionSol.jpg");
+        background-size: cover;
+        background-position-y: -0px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:95%;
+        height:220px;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom:auto;
+        margin-top:auto;
+        transition:150ms;
+        cursor:pointer;
+    }
+    
+    
+    
+    .AurelionSol .parrafo {
+        margin-top:-20px;
+        background-image:url("img/AurelionSol.jpg");
+        background-size: cover;
+        background-position-y: -180px;
+        background-position-x: auto;
+        background-repeat: no-repeat;
+        width:100%;
+        height:250px;
+        cursor: auto;
+        text-shadow: 3px 4px 4px blue;
+    }
+    
+    
+    .AurelionSol details[open] {
+        margin-bottom:200px;
+    }
+    
+    footer .RiotGames{
+        margin-top: 50px;
+        width:400px;
+        height:200px;
+    } 
+    .redes,.instagram,.whatsapp,.Twitter{
+        height:200px;
+        width: 200px;
+        margin-top: 30px;
+    }
+    
+}
