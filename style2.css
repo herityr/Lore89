@@ -1,0 +1,39 @@
+
+
+header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px ;
+}
+
+body{
+    background-image: url("img/Aatrox.jpeg");
+    background-color: black;
+    background-position-x:center;
+    background-position-y:auto;
+    background-repeat:auto;
+    height:auto;
+   
+}
+
+.Lore{
+    width:75%;
+}    
+
+p,h1{
+    color: white;
+    text-shadow: 3px 3px 4px red;
+}
+
+@media(max-width:1000px){
+    
+    .Lore {
+        width:100%;
+    }    
+
+    p{font-size:25px;}
+
+    h1{
+       font-size:50px; 
+    }
+}

@@ -4,20 +4,30 @@ body{
     margin: 0%;
     }
 
-
 header{
 width:100%;
 height:100px;
-display:flex;
+text-align: center;
 align-items: center;
 justify-content:center;
-margin:0px auto;
+margin: auto;
 background-color: black;
+margin-top: 40px;
 }
 
 header,h1{
     color: white;
     }
+
+header .Formulario{
+width:57px;
+height:57px;
+display: flex;
+justify-content:flex-end;
+align-items:center;
+margin-left:1200px;
+margin-top: -59px;
+} 
 
 .links,a{
     color: rgb(0, 255, 255);
@@ -29,7 +39,7 @@ color:white;
 }
 
 .Aatrox details{
-    background-image: url("img/Aatrox.jpg");
+    background-image: url("img/Aatrox.jpeg");
     background-size: cover;
     background-position-y: -120px;
     background-position-x: auto;
@@ -46,7 +56,7 @@ color:white;
 }
 
 .Aatrox .parrafo{
-    background-image: url("img/Aatrox.jpg");
+    background-image: url("img/Aatrox.jpeg");
     margin-top:-20px;
     background-size: cover;
     background-position-y: -210px;
@@ -72,7 +82,7 @@ transform: translate(2%);
 }
 
 .Ahri details{
-    background-image:url("img/Ahri.jpg");
+    background-image:url("img/Ahri.jpeg");
     background-size: cover;
     background-position-y: -100px;
     background-position-x: auto;
@@ -92,7 +102,7 @@ transform: translate(2%);
 
 .Ahri .parrafo {
     margin-top:-20px;
-    background-image:url("img/Ahri.jpg");
+    background-image:url("img/Ahri.jpeg");
     background-size: cover;
     background-position-y: -190px;
     background-position-x: auto;
@@ -110,7 +120,7 @@ transform: translate(2%);
 }
 
 .Akali details{
-    background-image:url("img/Akali.jpg");
+    background-image:url("img/Akali.jpeg");
     background-size: cover;
     background-position-y: -50px;
     background-position-x: auto;
@@ -128,7 +138,7 @@ transform: translate(2%);
 
 .Akali .parrafo{
     margin-top:-20px;
-    background-image:url("img/Akali.jpg");
+    background-image:url("img/Akali.jpeg");
     background-size: cover;
     background-position-y: -140px;
     background-position-x: auto;
@@ -144,7 +154,7 @@ transform: translate(2%);
 }
 
 .Akshan details{
-    background-image:url("img/Akshan.jpg");
+    background-image:url("img/Akshan.jpeg");
     background-size: cover;
     background-position-y: -200px;
     background-position-x: auto;
@@ -162,7 +172,7 @@ transform: translate(2%);
 
 .Akshan .parrafo{
     margin-top:-20px;
-    background-image:url("img/Akshan.jpg");
+    background-image:url("img/Akshan.jpeg");
     background-size: cover;
     background-position-y: -290px;
     background-position-x: auto;
@@ -178,7 +188,7 @@ transform: translate(2%);
 }
 
 .Alistar details{
-    background-image:url("img/Alistar.jpg");
+    background-image:url("img/Alistar.jpeg");
     background-size: cover;
     background-position-y: -150px;
     background-position-x: auto;
@@ -196,7 +206,7 @@ transform: translate(2%);
 
 .Alistar .parrafo{
     margin-top:-20px;
-    background-image:url("img/Alistar.jpg");
+    background-image:url("img/Alistar.jpeg");
     background-size: cover;
     background-position-y: -240px;
     background-position-x: auto;
@@ -213,7 +223,7 @@ transform: translate(2%);
 }
 
 .Amumu details{
-    background-image:url("img/Amumu.jpg");
+    background-image:url("img/Amumu.jpeg");
     background-size: cover;
     background-position-y: -125px;
     background-position-x: auto;
@@ -233,7 +243,7 @@ transform: translate(2%);
 
 .Amumu .parrafo {
     margin-top:-20px;
-    background-image:url("img/Amumu.jpg");
+    background-image:url("img/Amumu.jpeg");
     background-size: cover;
     background-position-y: -215px;
     background-position-x: auto;
@@ -248,7 +258,7 @@ transform: translate(2%);
 }
 
 .Annie details{
-    background-image:url("img/Annie.jpg");
+    background-image:url("img/Annie.jpeg");
     background-size: cover;
     background-position-y: -120px;
     background-position-x: auto;
@@ -266,7 +276,7 @@ transform: translate(2%);
 
 .Annie .parrafo{
     margin-top:-20px;
-    background-image:url("img/Annie.jpg");
+    background-image:url("img/Annie.jpeg");
     background-size: cover;
     background-position-y: -210px;
     background-position-x: auto;
@@ -282,7 +292,7 @@ transform: translate(2%);
 }
 
 .Aphelios details{
-    background-image:url("img/Aphelios.jpg");
+    background-image:url("img/Aphelios.jpeg");
     background-size: cover;
     background-position-y: -67px;
     background-position-x: auto;
@@ -302,7 +312,7 @@ transform: translate(2%);
 
 .Aphelios .parrafo {
     margin-top:-20px;
-    background-image:url("img/Aphelios.jpg");
+    background-image:url("img/Aphelios.jpeg");
     background-size: cover;
     background-position-y: -157px;
     background-position-x: auto;
@@ -320,7 +330,7 @@ transform: translate(2%);
 }
 
 .Ashe details{
-    background-image:url("img/Ashe.jpg");
+    background-image:url("img/Ashe.jpeg");
     background-size: cover;
     background-position-y: -100px;
     background-position-x: auto;
@@ -340,7 +350,7 @@ transform: translate(2%);
 
 .Ashe .parrafo {
     margin-top:-20px;
-    background-image:url("img/Ashe.jpg");
+    background-image:url("img/Ashe.jpeg");
     background-size: cover;
     background-position-y: -190px;
     background-position-x: auto;
@@ -358,7 +368,7 @@ transform: translate(2%);
 }
 
 .AurelionSol details{
-    background-image:url("img/AurelionSol.jpg");
+    background-image:url("img/AurelionSol.jpeg");
     background-size: cover;
     background-position-y: -70px;
     background-position-x: auto;
@@ -378,7 +388,7 @@ transform: translate(2%);
 
 .AurelionSol .parrafo {
     margin-top:-20px;
-    background-image:url("img/AurelionSol.jpg");
+    background-image:url("img/AurelionSol.jpeg");
     background-size: cover;
     background-position-y: -160px;
     background-position-x: auto;
@@ -400,13 +410,11 @@ footer .RiotGames{
     margin-top: 30px;
 } 
 
-.redes,.instagram,.whatsapp,.Twitter{
+.redes,.Instagram,.Whatsapp,.Twitter{
     height:50px;
     width: 50px;
     margin-top: 30px;
 }
-
-
 
 }
 
@@ -421,14 +429,22 @@ footer .RiotGames{
         display:flex;
         align-items: center;
         justify-content:center;
-        margin:0px auto;
+        margin:auto;
         background-color: black;
         }
     header,h1{
         color: white;
         }
-    
-    
+    .Formulario{
+        width:0px;
+        height:0px;
+        display:flex;
+        justify-content:flex-end;
+        align-items:center;
+        margin-left:auto;
+        margin-top:auto;
+    } 
+
     p{
         font-size: 31px;
     } 
@@ -455,7 +471,7 @@ footer .RiotGames{
     transform: translate(2%);    
     }
     .Aatrox details{
-        background-image: url("img/Aatrox.jpg");
+        background-image: url("img/Aatrox.jpeg");
         background-size: cover;
         background-position-y: -25px;
         background-position-x: auto;
@@ -472,7 +488,7 @@ footer .RiotGames{
     }
     
     .Aatrox .parrafo{
-        background-image: url("img/Aatrox.jpg");
+        background-image: url("img/Aatrox.jpeg");
         margin-top:-20px;
         background-size: cover;
         background-position-y: -205px;
@@ -490,7 +506,7 @@ footer .RiotGames{
     }
     
     .Ahri details{
-        background-image:url("img/Ahri.jpg");
+        background-image:url("img/Ahri.jpeg");
         background-size: cover;
         background-position-y: -10px;
         background-position-x: auto;
@@ -510,7 +526,7 @@ footer .RiotGames{
     
     .Ahri .parrafo {
         margin-top:-20px;
-        background-image:url("img/Ahri.jpg");
+        background-image:url("img/Ahri.jpeg");
         background-size: cover;
         background-position-y: -190px;
         background-position-x: auto;
@@ -528,7 +544,7 @@ footer .RiotGames{
     }
     
     .Akali details{
-        background-image:url("img/Akali.jpg");
+        background-image:url("img/Akali.jpeg");
         background-size: cover;
         background-position-y: -10px;
         background-position-x: auto;
@@ -546,7 +562,7 @@ footer .RiotGames{
     
     .Akali .parrafo{
         margin-top:-20px;
-        background-image:url("img/Akali.jpg");
+        background-image:url("img/Akali.jpeg");
         background-size: cover;
         background-position-y: -190px;
         background-position-x: auto;
@@ -562,7 +578,7 @@ footer .RiotGames{
     }
     
     .Akshan details{
-        background-image:url("img/Akshan.jpg");
+        background-image:url("img/Akshan.jpeg");
         background-size: cover;
         background-position-y: -110px;
         background-position-x: auto;
@@ -580,7 +596,7 @@ footer .RiotGames{
     
     .Akshan .parrafo{
         margin-top:-20px;
-        background-image:url("img/Akshan.jpg");
+        background-image:url("img/Akshan.jpeg");
         background-size: cover;
         background-position-y: -290px;
         background-position-x: auto;
@@ -596,7 +612,7 @@ footer .RiotGames{
     }
     
     .Alistar details{
-        background-image:url("img/Alistar.jpg");
+        background-image:url("img/Alistar.jpeg");
         background-size: cover;
         background-position-y: -80px;
         background-position-x: auto;
@@ -614,7 +630,7 @@ footer .RiotGames{
     
     .Alistar .parrafo{
         margin-top:-20px;
-        background-image:url("img/Alistar.jpg");
+        background-image:url("img/Alistar.jpeg");
         background-size: cover;
         background-position-y: -260px;
         background-position-x: auto;
@@ -631,7 +647,7 @@ footer .RiotGames{
     }
     
     .Amumu details{
-        background-image:url("img/Amumu.jpg");
+        background-image:url("img/Amumu.jpeg");
         background-size: cover;
         background-position-y: -50px;
         background-position-x: auto;
@@ -651,7 +667,7 @@ footer .RiotGames{
     
     .Amumu .parrafo {
         margin-top:-20px;
-        background-image:url("img/Amumu.jpg");
+        background-image:url("img/Amumu.jpeg");
         background-size: cover;
         background-position-y: -230px;
         background-position-x: auto;
@@ -666,7 +682,7 @@ footer .RiotGames{
     }
     
     .Annie details{
-        background-image:url("img/Annie.jpg");
+        background-image:url("img/Annie.jpeg");
         background-size: cover;
         background-position-y: -30px;
         background-position-x: auto;
@@ -684,7 +700,7 @@ footer .RiotGames{
     
     .Annie .parrafo{
         margin-top:-20px;
-        background-image:url("img/Annie.jpg");
+        background-image:url("img/Annie.jpeg");
         background-size: cover;
         background-position-y: -210px;
         background-position-x: auto;
@@ -700,7 +716,7 @@ footer .RiotGames{
     }
     
     .Aphelios details{
-        background-image:url("img/Aphelios.jpg");
+        background-image:url("img/Aphelios.jpeg");
         background-size: cover;
         background-position-y: -50px;
         background-position-x: auto;
@@ -720,7 +736,7 @@ footer .RiotGames{
     
     .Aphelios .parrafo {
         margin-top:-20px;
-        background-image:url("img/Aphelios.jpg");
+        background-image:url("img/Aphelios.jpeg");
         background-size: cover;
         background-position-y: -230px;
         background-position-x: auto;
@@ -738,7 +754,7 @@ footer .RiotGames{
     }
     
     .Ashe details{
-        background-image:url("img/Ashe.jpg");
+        background-image:url("img/Ashe.jpeg");
         background-size: cover;
         background-position-y: -40px;
         background-position-x: auto;
@@ -758,7 +774,7 @@ footer .RiotGames{
     
     .Ashe .parrafo {
         margin-top:-20px;
-        background-image:url("img/Ashe.jpg");
+        background-image:url("img/Ashe.jpeg");
         background-size: cover;
         background-position-y: -220px;
         background-position-x: auto;
@@ -776,7 +792,7 @@ footer .RiotGames{
     }
     
     .AurelionSol details{
-        background-image:url("img/AurelionSol.jpg");
+        background-image:url("img/AurelionSol.jpeg");
         background-size: cover;
         background-position-y: -0px;
         background-position-x: auto;
@@ -796,7 +812,7 @@ footer .RiotGames{
     
     .AurelionSol .parrafo {
         margin-top:-20px;
-        background-image:url("img/AurelionSol.jpg");
+        background-image:url("img/AurelionSol.jpeg");
         background-size: cover;
         background-position-y: -180px;
         background-position-x: auto;
@@ -817,7 +833,7 @@ footer .RiotGames{
         width:400px;
         height:200px;
     } 
-    .redes,.instagram,.whatsapp,.Twitter{
+    .redes,.Instagram,.Whatsapp,.Twitter{
         height:200px;
         width: 200px;
         margin-top: 30px;
